@@ -47,6 +47,8 @@ pip install pyinstaller
 ビルドコマンド例：
 
 ```powershell
+$env:PLAYWRIGHT_BROWSERS_PATH="0"
+playwright install chromium
 pyinstaller google_screenshot.spec
 ```
 

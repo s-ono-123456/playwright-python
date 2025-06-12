@@ -1,2 +1,3 @@
 # 必要なPythonパッケージを記載
 playwright
+pyinstaller
